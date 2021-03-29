@@ -1,6 +1,8 @@
 # Github Survey Analysis
 Data analysis on github developer survey taken from kaggle https://www.kaggle.com/stackoverflow/so-survey-2017
-The current analysis is focused on job statistics.
+The current analysis is focused on job statistics. 
+
+This analysis is made for the purpose of discovering the general feelings of developers in the community of StackOverflow on their jobs and compare the measures to conclude some interesting insights to help developers or even recruiters have a better idea on workers necesities.
 
 
 # Installation
@@ -12,6 +14,10 @@ pip install matplotlib
 pip install pandas
 pip install scikit-learn
 ```
+# File structure
+- `data/`: contains csv data files used for analysis.
+- `img/`: contains result images captured for documentation
+- `initial_data_exploration`: jupyter notebook file with the detailed description of analysis made.
 
 # Business Questions
 - **Q**: Is being a developer a regarding job?
